@@ -1,0 +1,175 @@
+
+#principal{
+    width: 900px;
+    height: 1500px;
+	border: 1px solid #000;
+    margin: auto;
+    background: #bfd4dd;
+    
+
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 1px solid #000;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    border: 0px solid #000;  
+    float: left;
+}
+.menu{
+    width: 550px;
+    height: 40px;
+    border:1px solid #000;
+    float: right;
+    margin-top: 40px;
+    background:#25ade2;
+}
+
+.menu ul {
+    color:#fff;
+}
+
+.menu ul li{
+    list-style:none;
+    float:left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #ccc;
+    color:#fff;
+}
+#slide{
+    margin-top: 10px;
+    width: 900 px;
+    height: 250px;
+}
+#categorias{
+    width:9000px; /*CUADRO GRANDE*/
+    height: auto; overflow: hidden;
+    border:0px solid;
+    margin-top: 10px;
+
+}
+.uno{ /*LAS CAJAS PEQUEÑAS*/
+    width:280px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+    
+   
+
+}
+.dos{
+    margin-left:12px;
+    margin-right: 12px;
+}
+
+.tres{ /*LAS CAJAS PEQUEÑAS*/
+    width:290px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:3px;
+    text-align:center; /* para centrar*/
+   
+
+}
+.cuadro{
+    width:280px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+}
+.leer-mas {
+    text-decoration:none; /* quitar subrayado*/
+    border:1px solid #006699;
+    padding: 2px 20px 4px 20px; /* ancho del boton*/
+     margin :10px;
+     transition: background 1s, color 1s;
+
+    
+}
+.leer-mas:hover{
+    background: #006699;
+    color:#fff;
+}
+#info{
+    width: 900px;
+    height:auto;overflow:hidden;
+    border: 1px solid #cc00cc;
+}
+
+.form action{
+    background: #006699;
+
+}
+
+
+form { padding: 50px; background: rgb(220, 235, 166); width: 150px; }
+label { font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #FFF; display: block; }
+.campo { margin-bottom: 20px; } 
+
+#categoriasalimetacion{
+    width:9000px; /*CUADRO GRANDE*/
+    height: auto; overflow: hidden;
+    border:0px solid;
+    margin-top: 10px;
+}
+.unos{ /*LAS CAJAS PEQUEÑAS*/
+    width:280px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+   
+
+}
+.doss{ /*LAS CAJAS PEQUEÑAS*/
+    width:280px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+   
+
+}
+.tress{ /*LAS CAJAS PEQUEÑAS*/
+    width:280px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+   
+
+}
+
+#categoriasguarderia{
+    width:9000px; /*CUADRO GRANDE*/
+    height: auto; overflow: hidden;
+    border:0px solid;
+    margin-top: 10px;
+}
+.unoss{ /*LAS CAJAS PEQUEÑAS*/
+    width:810px;
+    height: auto; overflow: hidden;/* el alto de cuadro*/
+    border: 1px solid #cccccc;
+    float: left;
+    padding:5px;
+    text-align:center; /* para centrar*/
+}
+
+.footer{
+    text-align:center; 
+}
